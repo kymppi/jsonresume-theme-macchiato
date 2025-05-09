@@ -7,56 +7,64 @@
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 300;
-  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10k.ttf) format('truetype');
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'),
+    url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10k.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 700;
-  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ectllte10k.ttf) format('truetype');
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'),
+    url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ectllte10k.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 300;
-  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
+  src: local('Lato Light Italic'), local('Lato-LightItalic'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
+  src: local('Lato Italic'), local('Lato-Italic'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+  src: local('Lato Light'), local('Lato-Light'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+  src: local('Lato Regular'), local('Lato-Regular'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+  src: local('Lato Bold'), local('Lato-Bold'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
 }
 
 html {
@@ -64,12 +72,12 @@ html {
 }
 
 body {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-weight: 400;
   background: white;
   margin: 50px 0 100px;
-  letter-spacing: .3px;
-  color: #39424B;
+  letter-spacing: 0.3px;
+  color: #39424b;
 }
 
 h1,
@@ -83,24 +91,24 @@ h6 {
 }
 
 h1 {
-  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 40px;
   letter-spacing: 1px;
 }
 
 h2 {
-  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 16px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 h3 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 14px;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
 }
 
 h3.bold {
@@ -108,7 +116,7 @@ h3.bold {
 }
 
 h4 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 12px;
 }
@@ -118,7 +126,7 @@ h4.bold {
 }
 
 h5 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 11px;
 }
@@ -128,7 +136,7 @@ h5.italic {
 }
 
 h6 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 10px;
 }
@@ -139,7 +147,7 @@ a {
 }
 
 a:hover {
-  color: #2895F1;
+  color: #2895f1;
 }
 
 a .fa-external-link {
@@ -154,7 +162,7 @@ li {
 
 blockquote {
   font-size: 11px;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: italic;
   margin: 10px 25px;
@@ -198,14 +206,10 @@ ul.two-column li {
   size: A4;
 }
 
-.container {
-  padding-top: 20px;
-}
-
 .keyline {
   width: 45px;
   margin: 8px 0 10px;
-  border-top: 1px solid #56817A;
+  border-top: 1px solid #56817a;
 }
 
 .pull-left {
@@ -217,7 +221,7 @@ ul.two-column li {
 }
 
 .clearfix:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -228,10 +232,10 @@ ul.two-column li {
 }
 
 .profile-pic img {
-  height: 52px;
-  width: 52px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
-  border: 2px solid #56817A;
+  border: 2px solid #56817a;
 }
 
 .summary {
@@ -255,13 +259,13 @@ ul.two-column li {
   min-height: 792px;
   display: block;
   margin: 0 auto;
-  border-top: 10px solid #56817A;
+  border-top: 10px solid #56817a;
   padding: 36px 22px 30px 34px;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 .page:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -385,8 +389,8 @@ ul.two-column li {
 }
 
 .skill {
-  margin: .15em;
-  padding: .15em;
+  margin: 0.15em;
+  padding: 0.15em;
   background: ghostwhite;
   border-radius: 5px;
 }
